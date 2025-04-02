@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.simon-board {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.btn:active, .btn.active {
+    opacity: 1;
+    transform: scale(0.95);
+}
+
+.green {
+    background: #2ecc71;
+}
+
+.red {
+    background: #e74c3c;
+}
+
+.yellow {
+    background: #f1c40f;
+}
+
+.blue {
+    background: #3498db;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+#start {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
